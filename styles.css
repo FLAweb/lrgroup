@@ -243,7 +243,7 @@ nav ul li a:hover {
 }
 
 .nosotros {
-    width: 250px;
+    width: 300px;
     height: 400px;
     background:  rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -253,7 +253,7 @@ nav ul li a:hover {
 }
 
 .servicios {
-    width: 250px;
+    width: 300px;
     height: 400px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px; 
@@ -262,7 +262,7 @@ nav ul li a:hover {
 }
 
 .empresas {
-    width: 250px;
+    width: 300px;
     height: 400px;
     background:  rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -271,7 +271,7 @@ nav ul li a:hover {
 }
 
 .testimonios {
-    width: 250px;
+    width: 300px;
     height: 400px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -365,9 +365,6 @@ footer ul li a {
         justify-content: space-evenly;
     }
 
-    .degrade-vertical {
-        
-    }
 
     .image {
         display: flex;
@@ -393,15 +390,25 @@ footer ul li a {
     }
 
     .container-image {
-        width: 85%;
+        width: 100%;
         
     }
 
     .container-titulo {
-        width: 15%;   
+        width: 100%;
+        height: 260px;  
+        display: inline-block; 
+        left: -25%;
     }
 
+    .article-1 {
+        display: block;
+    }
     .image img {
         height: 330px;
+    }
+
+    .degrade-vertical {
+        display: none;
     }
 }
